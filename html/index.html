@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+    <!--css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--fontawsome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic:wght@400;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+        <!--animation system-->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!--aos-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!--navbar-->
+        <nav>
+            <!--logo-->
+            <img src="D:\luminar\css\portfolio\imagers\logo1.png" class="logo">
+            <!--link-->
+            <ul>
+                <li class="list-items"> <a href="#home" class="links">Home</a></li>
+                <li class="list-items"> <a href="#about" class="links">About</a></li>
+                <li class="list-items"> <a href="#skills" class="links">Skills</a></li>
+                <li class="list-items"> <a href="#contact" class="links">Contact</a></li>
+            </ul>
+        </nav>
+        <!--home-->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__wobble"  id="username">I'm Maria <span id="lname">joe</span></h1>
+                <p id="user-details">this is my official portfolio website to decribe all<br>deatils and work experience
+                    in web development
+                </p>
+                <a href="MAIN CV.pdf" id="download" download>Download CV</a>
+            </div>
+            <div class="home-img">
+                <!--shape-->
+                <img id="shape" src="d:\luminar\css\portfolio\imagers\bg-final (1).png" class="group1">
+                <!--girl-->
+                <img id="girl" src="d:\luminar\css\portfolio\imagers\businesslady-final.png" class="group1">
+            </div>
+        </section>
+        <!--about-->
+        <section id="about">
+            <div class="secctionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div  data-aos="fade-right"       class="aboutimage">
+                    <img
+                        src="https://www.shutterstock.com/image-vector/self-introduction-boy-cartoon-character-260nw-2202590783.jpg">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit iure eius quasi quia, atque
+                        quisquam modi facilis voluptate perferendis facere autem praesentium voluptates ab, ipsum
+                        corporis expedita doloribus, ex quidem.</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria joe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>773720829</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Mariajoe@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--skills-->
+        <section id="skills">
+            <div class="secctionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <!--proghressbar-->
+                <div class="bars">
+                    <h3 class="barhead">HTML</h3>
+                    <span class="barpercent">84%</span>
+                    <div class="basebar"></div>
+                    <div class="htmlbar basebar" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"  ></div>
+                </div>
+                <div class="bars">
+                    <h3 class="barhead">CSS</h3>
+                    <span class="barpercent">79%</span>
+                    <div class="basebar"></div>
+                    <div class="cssbar basebar"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"  ></div>
+                </div>
+                <div class="bars">
+                    <h3 class="barhead">JS</h3>
+                    <span class="barpercent">65%</span>
+                    <div class="basebar"></div>
+                    <div class="jsbar basebar" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"     ></div>
+                </div>
+                <div class="bars">
+                    <h3 class="barhead">REACT</h3>
+                    <span class="barpercent">54%</span>
+                    <div class="basebar"></div>
+                    <div class="reactbar basebar" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"   ></div>
+                </div>
+                </div>
+               
+                <div class="skillimage">
+                    <img width="50%"  src="d:\luminar\css\portfolio\imagers\about me.jpeg">
+                </div>
+                </div>
+            
+</section>
+<!--contact-->
+<section id="contact">
+    <div class="secctionhead">
+        <h2 class="mainhead">Contacts</h2>
+        <span class="subhead">My Contacts</span>
+    </div>
+    <div class="iconcollection">
+        <!--linkedin-->
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/jismy-c-joseph-07498b332/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i>  </a>
+        </div>
+        <!--github-->
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-github brands"></i>  </a>
+        </div>
+        <!--twitter-->
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-twitter brands"></i>  </a>
+        </div>
+        <!--whatsapp-->
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-whatsapp brands"></i>  </a>
+        </div>
+        <!--facebook-->
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i>  </a>
+        </div>
+        <!--insta-->
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-instagram brands"></i>  </a>
+        </div>
+
+    </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <p id="copyright">&copy;My portfolio website -June 2024,All rights reserved to &reg; Maria joe</p>
+     <div class="icons uparrow">
+        <a href="#container" target="_blank"> 
+            <i class="fa-solid fa-chevron-up"></i>   </a>
+     </div>
+ </footer>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+<!--aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
